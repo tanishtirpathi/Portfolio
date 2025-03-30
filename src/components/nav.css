@@ -4,7 +4,7 @@
   left: 50%; /* Move it to the center */
   transform: translateX(-50%); /* Center it properly */
   background: linear-gradient(to right, hsl(180, 90%, 32%), #006060, #023d3d);
-  padding: 6px 40px;
+  padding: 2px 40px;
   border-radius: 12px;
   display: flex;
   justify-content: center;
@@ -38,9 +38,8 @@
   background: rgb(27, 27, 27);
   padding: 8px 35px;
   border-radius: 15px;
-  margin-left: 150px;
+  margin-left: 250px;
   color: white;
-
   transition: all 0.3s ease-in;
 }
 .summery:hover {
