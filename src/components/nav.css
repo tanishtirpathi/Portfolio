@@ -1,0 +1,52 @@
+.navbar {
+  position: fixed; /* Fix it at the top */
+  top: 10px; /* Add some spacing from the top */
+  left: 50%; /* Move it to the center */
+  transform: translateX(-50%); /* Center it properly */
+  background: linear-gradient(to right, hsl(180, 90%, 32%), #006060, #023d3d);
+  padding: 6px 40px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  width: fit-content; /* Makes the navbar width wrap around content */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add some shadow */
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 8px 15px;
+  border-radius: 8px;
+  transition: background 0.3s ease-in-out;
+}
+
+.nav-item:hover {
+  background: rgba(255, 255, 255, 0.493);
+}
+
+.summery {
+  background: rgb(27, 27, 27);
+  padding: 8px 35px;
+  border-radius: 15px;
+  margin-left: 150px;
+  color: white;
+
+  transition: all 0.3s ease-in;
+}
+.summery:hover {
+  background: black;
+  padding: 8px 35px;
+  cursor: pointer;
+  border-radius: 15px;
+  color: white;
+}

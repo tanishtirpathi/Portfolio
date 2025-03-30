@@ -1,9 +1,11 @@
 import "./App.css";
-
+import Nav from "./components/nav";
 export default function App() {
   return (
     <>
-      <h1>hello bro </h1>
+      <div className="App">
+        <Nav />
+      </div>
     </>
   );
 }
