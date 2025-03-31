@@ -1,5 +1,6 @@
 import React from "react";
 import "./body.css";
+import 
 function BodyImageside() {
   const Simple = () => {
     window.location.href = " https://tanishtirpathi.github.io/tanish/";
@@ -31,7 +32,7 @@ function BodyImageside() {
                   alt="LinkedIn"
                 />
               </a>
-              <a href="https://www.instagram.com/tanish.tirpathi/">
+              <a href="https://www.instagram.com/tanish.tirpathi/">S
                 <img
                   src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"
                   alt="Instagram"
