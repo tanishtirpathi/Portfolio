@@ -17,7 +17,7 @@ function BodyImageside() {
               with cool knowledge{" "}
             </h2>
           </div>
-          <img src="image.png " alt="Profile" className="profile-img" />
+          <img src="/image.png " alt="Profile" className="profile-img" />
         </div>
         <div className="flexx">
           <div className="one">
@@ -51,7 +51,7 @@ function BodyImageside() {
                 />
               </a>
               <a href="https://x.com/tanishtirpathi">
-                <img src="twitter.png" alt="Twitter" />
+                <img src="/twitter.png" alt="Twitter" />
               </a>
             </div>
           </div>
