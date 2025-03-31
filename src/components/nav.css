@@ -36,7 +36,7 @@
 
 .summery {
   background: rgb(27, 27, 27);
-  padding: 8px 35px;
+  padding: 5px 30px;
   border-radius: 15px;
   margin-left: 250px;
   color: white;
@@ -44,7 +44,7 @@
 }
 .summery:hover {
   background: black;
-  padding: 8px 35px;
+  padding: 5px 30px;
   cursor: pointer;
   border-radius: 15px;
   color: white;

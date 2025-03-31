@@ -1,6 +1,12 @@
 import React from "react";
 import "./body.css";
 function BodyImageside() {
+  const Simple = () => {
+    window.location.href = " https://tanishtirpathi.github.io/tanish/";
+  };
+  const aert = () => {
+    alert("sorry this is under the maintaince .");
+  };
   return (
     <>
       <div className="hero-section">
@@ -19,15 +25,17 @@ function BodyImageside() {
         </div>
         <div className="flexx">
           <div className="one">
-            <button className="portfolio-btn">simple portfolio</button>
+            <button className="portfolio-btn" onClick={Simple}>
+              simple portfolio
+            </button>
             <div>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/tanishtirpathi/">
                 <img
                   src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
                   alt="LinkedIn"
                 />
               </a>
-              <a href="#">
+              <a href="https://www.instagram.com/tanish.tirpathi/">
                 <img
                   src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"
                   alt="Instagram"
@@ -36,15 +44,17 @@ function BodyImageside() {
             </div>
           </div>
           <div className="two">
-            <button className="portfolio-btn">3d portfolio</button>
+            <button className="portfolio-btn" onClick={aert}>
+              3d portfolio
+            </button>
             <div>
-              <a href="#">
+              <a href="https://github.com/tanishtirpathi">
                 <img
                   src="https://cdn-icons-png.flaticon.com/512/733/733609.png"
                   alt="GitHub"
                 />
               </a>
-              <a href="#">
+              <a href="https://x.com/tanishtirpathi">
                 <img src="src\components\twitter.png" alt="Twitter" />
               </a>
             </div>

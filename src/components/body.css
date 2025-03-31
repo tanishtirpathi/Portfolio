@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Stalinist+One&family=Syne:wght@400..800&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Borel&family=Homemade+Apple&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Stalinist+One&family=Syne:wght@400..800&family=Yellowtail&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -108,10 +110,12 @@ h2 {
 .portfolio-btn {
   background: linear-gradient(110deg, #00ff88, #00331b, #02462c);
   color: black;
-  padding: 10px 50px;
+  padding: 3px 50px;
   margin-inline: 30px;
   margin-top: 70px;
   border: none;
+  font-family: Borel;
+  font-weight: 800;
   border-radius: 5px;
   transition: all 0.3s ease-in-out;
   font-weight: bold;
@@ -119,12 +123,14 @@ h2 {
   cursor: pointer;
 }
 .portfolio-btn:hover {
-  background: linear-gradient(to right, hsl(180, 90%, 32%), #006060, #023d3d);
+  background: linear-gradient(to right, hsl(180, 90%, 32%), #013f3f, #023d3d);
   color: black;
-  padding: 10px 50px;
+  padding: 3px 50px;
   margin-inline: 30px;
   margin-top: 70px;
+  text-shadow: 1px 1px 1px rgb(92, 92, 92);
   border: none;
+  transition: all 0.3s ease-in-out;
   border-radius: 5px;
   font-weight: bold;
   box-shadow: 1px 1px 10px white;
@@ -152,15 +158,18 @@ h2 {
   width: 40px;
   height: 40px;
   margin: 8px 15px;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.2s ease-in-out;
 }
 .one img {
   width: 40px;
   margin: 8px 15px;
   height: 40px;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.2s ease-in-out;
 }
 
-.social-icons img:hover {
+.one img:hover {
+  transform: scale(1.2);
+}
+.two img:hover {
   transform: scale(1.2);
 }
