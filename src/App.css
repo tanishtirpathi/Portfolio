@@ -9,3 +9,15 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    background: linear-gradient(250deg, #00ff88, #00331b, #000000);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background: linear-gradient(250deg, #00ff88, #00331b, #000000);
+  }
+}
