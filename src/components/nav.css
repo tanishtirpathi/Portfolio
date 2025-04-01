@@ -87,6 +87,15 @@
     padding: 5px 15px;
   }
 }
+.summery {
+  background: rgb(27, 27, 27);
+  padding: 5px 30px;
+  border-radius: 15px;
+  margin-left: 250px;
+  color: white;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+}
 
 @media screen and (max-width: 480px) {
   .navbar {

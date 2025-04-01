@@ -13,9 +13,9 @@ function BodyImageside() {
       <div className="hero-section">
         <div className="cover">
           <div className="flex">
-            <h1 className="title">Frontend engineer</h1>{" "}
+            <h1 className="title">Frontend engineer</h1>
             <h2 className="title" id="cool">
-              with cool knowledge{" "}
+              with cool knowledge
             </h2>
           </div>
           <img src="/image.png " alt="Profile" className="profile-img" />

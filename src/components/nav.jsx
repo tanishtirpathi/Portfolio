@@ -1,11 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import "./nav.css";
 
 const Nav = () => {
   const navigateTo = (url) => {
     window.location.href = url;
   };
-
   return (
     <nav className="navbar">
       <ul className="nav-list">
@@ -41,7 +40,13 @@ const Nav = () => {
         <li className="nav-item" id="blogs" onClick={() => navigateTo("#")}>
           blogs
         </li>
-        <li className="summery">summery</li>
+        <li
+          className="summery "
+          onClick={() =>
+            navigateTo("https://www.instagram.com/tanish.tirpathi/")
+          }>
+          Summary
+        </li>
       </ul>
     </nav>
   );
