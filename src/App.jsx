@@ -1,12 +1,10 @@
 import "./App.css";
-import Nav from "./components/nav";
-import BodyImageside from "./components/BodyImageside";
+import Main from "./components/Main";
 export default function App() {
   return (
     <>
       <div className="App">
-        <Nav />
-        <BodyImageside />
+        <Main/>
       </div>
     </>
   );
