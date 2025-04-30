@@ -7,8 +7,8 @@ export default function Powerbutton({ onPowerOn }) {
   const handleClick = () => {
     setIsOn(true);
     setTimeout(() => {
-      onPowerOn();  // Trigger function passed as a prop to show main content
-    }, 1000);
+      onPowerOn();  
+    }, 200);
   };
 
   return (
