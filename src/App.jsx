@@ -1,11 +1,22 @@
+import React, { useState } from "react";
+import Powerbutton from "./components/powerbutton";
+import Main from "./components/page";
 import "./App.css";
-import Main from "./components/Main";
+
 export default function App() {
+  const [isPoweredOn, setIsPoweredOn] = useState(false);
+
+  const handlePowerOn = () => {
+    setIsPoweredOn(true);  
+  };
+
   return (
-    <>
-      <div className="App">
-        <Main/>
-      </div>
-    </>
+    <div>
+      {!isPoweredOn ? (
+        <Powerbutton onPowerOn={handlePowerOn} />
+      ) : (
+        <Main />
+      )}
+    </div>
   );
 }

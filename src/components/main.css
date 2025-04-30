@@ -1,23 +1,24 @@
-/* body {
+#body {
   background: linear-gradient(220deg, #00ff88, #00331b, #000000);
   color: white;
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   min-height: 100vh;
+  min-width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 @media screen and (max-width: 768px) {
-  body {
+  #body {
     background: linear-gradient(250deg, #00ff88, #00331b, #000000);
   }
 }
 
 @media screen and (max-width: 480px) {
-  body {
+  #body {
     background: linear-gradient(250deg, #00ff88, #00331b, #000000);
   }
-} */
+}
