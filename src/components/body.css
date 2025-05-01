@@ -36,18 +36,8 @@ h2 {
   flex-direction: column;
 }
 
-.profile-img {
-  width: 400px;
-  mix-blend-mode: soft-light;
-  z-index: 10;
-  transition: all 0.6s ease-in;
-  cursor: pointer;
-  position: fixed;
-}
 
-.profile-img:hover {
-  mix-blend-mode: normal;
-}
+
 .portfolio-buttons {
   display: flex;
   justify-content: center;
@@ -64,7 +54,7 @@ h2 {
 
 .portfolio-btn {
   background: linear-gradient(110deg, #00ff88, #00331b, #02462c);
-  color: black;
+  color: rgb(0, 0, 0);
   padding: 3px 50px;
   margin-inline: 30px;
   margin-top: 70px;
@@ -79,7 +69,7 @@ h2 {
 }
 .portfolio-btn:hover {
   background: linear-gradient(to right, hsl(180, 90%, 32%), #013f3f, #023d3d);
-  color: black;
+  color: rgb(0, 0, 0);
   padding: 3px 50px;
   margin-inline: 30px;
   margin-top: 70px;
@@ -142,12 +132,6 @@ h2 {
     padding: 0 10px;
   }
 
-  .profile-img {
-    width: 350px;
-    position: relative;
-    right: -30px;
-    margin: 20px 0;
-  }
 
   .flexx {
     margin: -20px 0px;
@@ -188,10 +172,6 @@ h2 {
     font-size: 1.2em;
   }
 
-  .profile-img {
-    width: 350px;
-    right: -30px;
-  }
 
   .portfolio-btn {
     padding: 5px 20px;
@@ -212,4 +192,18 @@ h2 {
   h2 {
     font-size: 1.2rem;
   }
+}
+.profile-img {
+  width: 400px;
+  mix-blend-mode: soft-light;
+  z-index: 10;
+  cursor: pointer;
+  position: fixed;
+  transition: mix-blend-mode 0.6s ease-in, filter 0.6s ease-in;
+  filter: brightness(0.8);
+}
+
+.profile-img:hover {
+  mix-blend-mode: normal;
+  filter: brightness(1);
 }

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./nav.css";
 
 const Nav = () => {
@@ -27,7 +27,7 @@ const Nav = () => {
           onClick={() =>
             navigateTo("https://tanishtirpathi.github.io/tanish/")
           }>
-          website
+          websites
         </li>
         <li
           className="nav-item"
@@ -37,16 +37,15 @@ const Nav = () => {
           }>
           content
         </li>
-        <li className="nav-item" id="blogs" onClick={() => navigateTo("#")}>
-          blogs
+        <li className="nav-item" id="blogs" onClick={() => navigateTo("https://github.com/tanishtirpathi")}>
+          code  
         </li>
         <li
           className="summery "
           onClick={() =>
             navigateTo("https://www.instagram.com/tanish.tirpathi/")
           }>
-          Summary
-        </li>
+summary        </li>
       </ul>
     </nav>
   );

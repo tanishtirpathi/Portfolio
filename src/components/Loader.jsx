@@ -1,13 +1,13 @@
 import React from "react";
 import "./loading.css";
 
-const Loading=()=>{
+const Loading = () => {
   return (
     <div className="loading-container">
-      <div className="glow-ring"></div>
-      <div className="glow-text">Initializing portfolio </div>
+      <img src="/window.webp" alt="" className="img" />
+      <div className="loader"></div>
     </div>
   );
-}
+};
 
-export default Loading
+export default Loading;

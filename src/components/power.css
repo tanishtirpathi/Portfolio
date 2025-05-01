@@ -30,7 +30,7 @@ body {
   
   .power-button:hover {
     transform: scale(1.1);
-    box-shadow: 0 0 6px rgba(223, 8, 8, 0.5);
+    box-shadow: 0 0 6px rgba(124, 124, 124, 0.5);
   }
   
   .power-icon {

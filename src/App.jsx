@@ -14,7 +14,7 @@ export default function App() {
     setTimeout(() => {
       setIsPoweredOn(true);
       setIsLoading(false);
-    }, 3000); // Duration of loading screen
+    }, 4000); // Duration of loading screen
   };
 
   return (
