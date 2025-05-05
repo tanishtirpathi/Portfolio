@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Powerbutton from "./components/Powebutton";
-import Main from "./components/page";
+import LockPage from "./components/lockPage";
 import Loading from "./components/Loader";
 import "./App.css";
 
@@ -21,7 +21,7 @@ export default function App() {
     <>
       {!isPoweredOn && !isLoading && <Powerbutton onPowerOn={handlePowerOn} />}
       {isLoading && <Loading />}
-      {isPoweredOn && <Main />}
+      {isPoweredOn && <LockPage />}
     </>
   );
 }

@@ -25,7 +25,7 @@ function BodyImageside() {
             <button className="portfolio-btn" onClick={Simple}>
               simple portfolio
             </button>
-            <div>
+            <div className="flex justify-center items-center">
               <a href="https://www.linkedin.com/in/tanishtirpathi/">
                 <img
                   src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
@@ -44,7 +44,7 @@ function BodyImageside() {
             <button className="portfolio-btn" onClick={aert}>
               3d portfolio
             </button>
-            <div>
+            <div className="flex justify-center items-center">
               <a href="https://github.com/tanishtirpathi">
                 <img
                   src="https://cdn-icons-png.flaticon.com/512/733/733609.png"

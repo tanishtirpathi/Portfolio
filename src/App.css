@@ -21,3 +21,7 @@
     background: linear-gradient(250deg, #00ff88, #00331b, #000000);
   }
 } */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "tailwindcss";

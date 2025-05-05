@@ -12,8 +12,8 @@ export default function Powerbutton({ onPowerOn }) {
   };
 
   return (
-    <div id="body">
-      <div className="container">
+    <div className="body">
+      <div className="container w-screen">
         <div
           className="power-button"
           style={
