@@ -1,6 +1,6 @@
 import React from "react";
 import "./body.css";
-
+import MyGithubCalendar from "./github";
 function BodyImageside() {
   const Simple = () => {
     window.location.href = " https://tanishtirpathi.github.io/tanish/";
@@ -13,7 +13,7 @@ function BodyImageside() {
       <div className="hero-section">
         <div className="cover">
           <div className="flex">
-            <h1 className="title">Frontend engineer</h1>
+            <h1 className="title">Full-stack engineer</h1>
             <h2 className="title" id="cool">
               with cool knowledge
             </h2>
@@ -56,6 +56,9 @@ function BodyImageside() {
               </a>
             </div>
           </div>
+      
+        </div>   <div className="flex justify-center items-center">
+           <MyGithubCalendar/>
         </div>
       </div>
     </>
