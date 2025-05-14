@@ -23,7 +23,7 @@ h2 {
 }
 .title {
   font-family: Stalinist One;
-  margin-bottom:190px;
+  margin-bottom:260px;
   font-size: 2em;
   padding: 0px 20px;
   z-index: 1;
@@ -55,7 +55,7 @@ h2 {
 .portfolio-btn {
   background: linear-gradient(110deg, #00ff88, #00331b, #02462c);
   color: rgb(0, 0, 0);
-  padding: 3px 50px;
+  padding: 4px 50px;
   margin-inline: 30px;
   margin-top: 70px;
   border: none;
@@ -70,7 +70,7 @@ h2 {
 .portfolio-btn:hover {
   background: linear-gradient(to right, hsl(180, 90%, 32%), #013f3f, #023d3d);
   color: rgb(0, 0, 0);
-  padding: 3px 50px;
+  padding: 4px 50px;
   margin-inline: 30px;
   margin-top: 70px;
   text-shadow: 1px 1px 1px rgb(92, 92, 92);

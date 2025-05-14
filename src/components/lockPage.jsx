@@ -26,7 +26,7 @@ function LockPage() {
   return (
     <>{isUnlocked ? (<Main/> ) : (
       <div
-      className={`overflow-hidden w-screen h-screen bg-[url(/bg.jpg)] bg-cover flex-col flex gap-19 justify-center items-center transition-all duration-1000 ${
+      className={`overflow-hidden w-screen h-screen bg-[url(/bg.png)] bg-cover flex-col flex gap-19 justify-center items-center transition-all duration-1000 ${
         startAnimation ? "animate-slide-up" : ""
       }`}
     >

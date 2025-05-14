@@ -1,12 +1,11 @@
 import React from "react";
 import "./body.css";
-import MyGithubCalendar from "./github";
 function BodyImageside() {
   const Simple = () => {
     window.location.href = " https://tanishtirpathi.github.io/tanish/";
   };
   const aert = () => {
-    alert("sorry this is under the maintaince .");
+    window.location.href = " https://tanishtirpathi.github.io/tanish/showcase/project";
   };
   return (
     <>
@@ -42,7 +41,7 @@ function BodyImageside() {
           </div>
           <div className="two">
             <button className="portfolio-btn" onClick={aert}>
-              3d portfolio
+all projects
             </button>
             <div className="flex justify-center items-center">
               <a href="https://github.com/tanishtirpathi">
@@ -58,7 +57,6 @@ function BodyImageside() {
           </div>
       
         </div>   <div className="flex justify-center items-center">
-           <MyGithubCalendar/>
         </div>
       </div>
     </>
